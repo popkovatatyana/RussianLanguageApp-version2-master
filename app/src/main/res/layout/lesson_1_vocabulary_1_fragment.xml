@@ -1,0 +1,52 @@
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="match_parent"
+        android:layout_above="@+id/tvPage"
+        android:layout_alignParentEnd="true"
+        android:layout_height="match_parent">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tvPage"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textAlignment="center"
+        android:layout_above="@+id/tvPage_translate"
+        android:layout_alignParentEnd="true"
+        android:layout_width="250dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvPage_translate"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textAlignment="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="250dp">
+    </TextView>
+
+    <ImageButton
+        android:src="@mipmap/play"
+        android:id="@+id/sound"
+        android:layout_toStartOf="@+id/tvPage"
+        android:layout_below="@+id/photo"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</RelativeLayout>
