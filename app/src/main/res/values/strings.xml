@@ -85,63 +85,63 @@
     <string name="l1_g2_description1">*The choice between the endings –ы and –и is determined by  the Rule 1 below.</string>
     <string name="l1_g2_description3">NB! There are some irregular plural forms which can be described according to these rules:</string>
     <string name="l1_grammar_2_title_2">Write the singular words in the plural and vice versa.</string>
-    <string name="l1_g2_question0"> слово -</string>
-    <string name="l1_g2_question1"> язык -</string>
-    <string name="l1_g2_question2">- вопросы </string>
-    <string name="l1_g2_question3"> город -</string>
-    <string name="l1_g2_question4"> друг -</string>
-    <string name="l1_g2_question5">- растения </string>
-    <string name="l1_g2_question6">- люди </string>
-    <string name="l1_g2_question7"> здание -</string>
-    <string name="l1_g2_question8">- истории </string>
-    <string name="l1_g2_question9"> гора -</string>
-    <string name="l1_g2_question10">- имена </string>
-    <string name="l1_g2_question11"> проблема -</string>
-    <string name="l1_g2_question12">- школы </string>
-    <string name="l1_g2_question13"> время -</string>
-    <string name="l1_g2_question14">- чувства </string>
+    <string name="l1_g2_question0" translatable="false"> слово -</string>
+    <string name="l1_g2_question1" translatable="false"> язык -</string>
+    <string name="l1_g2_question2" translatable="false">- вопросы </string>
+    <string name="l1_g2_question3" translatable="false"> город -</string>
+    <string name="l1_g2_question4" translatable="false"> друг -</string>
+    <string name="l1_g2_question5" translatable="false">- растения </string>
+    <string name="l1_g2_question6" translatable="false">- люди </string>
+    <string name="l1_g2_question7" translatable="false"> здание -</string>
+    <string name="l1_g2_question8" translatable="false">- истории </string>
+    <string name="l1_g2_question9" translatable="false"> гора -</string>
+    <string name="l1_g2_question10" translatable="false">- имена </string>
+    <string name="l1_g2_question11" translatable="false"> проблема -</string>
+    <string name="l1_g2_question12" translatable="false">- школы </string>
+    <string name="l1_g2_question13" translatable="false"> время -</string>
+    <string name="l1_g2_question14" translatable="false">- чувства </string>
     <string name="L1grammar3_title">Adjective Agreement: Introduction</string>
     <string name="l1_g3_description1">Adjectives agree with the noun in gender.</string>
     <string name="l1_g3_description2">Think of -ый, -ая, -ое, and -ые as the basic adjective endings that have some slight variations. For example, when the masculine ending is stressed, it is spelled –ой, as in Большой театр.</string>
-    <string name="l1_g3_description3">он плох-о́й \t она плох-а́я</string>
-    <string name="l1_g3_description4">but: он хоро́ш-ий \t она хоро́ш-ая</string>
+    <string name="l1_g3_description3" translatable="false">он плох-о́й \t она плох-а́я</string>
+    <string name="l1_g3_description4" translatable="false">but: он хоро́ш-ий \t она хоро́ш-ая</string>
     <string name="l1_grammar_2_title_3">Fill in the adjectives with the correct endings according to the gender.</string>
-    <string name="l1_g3_first_0">﻿Больш</string>
-    <string name="l1_g3_second_0"> страна</string>
-    <string name="l1_g3_first_1">Интересн</string>
-    <string name="l1_g3_second_1"> музей </string>
-    <string name="l1_g3_first_2">Длинн</string>
-    <string name="l1_g3_second_2"> история </string>
-    <string name="l1_g3_first_3">Русск</string>
-    <string name="l1_g3_second_3"> словарь </string>
-    <string name="l1_g3_first_4">Нов</string>
-    <string name="l1_g3_second_4"> ученик</string>
-    <string name="l1_g3_first_5">Маленьк</string>
-    <string name="l1_g3_second_5"> ножницы</string>
-    <string name="l1_g3_first_6">Больш</string>
-    <string name="l1_g3_second_6"> стол</string>
-    <string name="l1_g3_first_7">Красив</string>
-    <string name="l1_g3_second_7"> парк </string>
-    <string name="l1_g3_first_8">Нов</string>
-    <string name="l1_g3_second_8"> часы</string>
-    <string name="l1_g3_first_9">Стар</string>
-    <string name="l1_g3_second_9"> архитектура</string>
-    <string name="l1_g3_first_10">Хорош</string>
-    <string name="l1_g3_second_10"> школа</string>
-    <string name="l1_g3_first_11">Нов</string>
-    <string name="l1_g3_second_11"> месяц </string>
-    <string name="l1_g3_first_12">Больш</string>
-    <string name="l1_g3_second_12"> здание</string>
-    <string name="l1_g3_first_13">Маленьк</string>
-    <string name="l1_g3_second_13"> мост</string>
-    <string name="l1_g3_first_14">Хорош</string>
-    <string name="l1_g3_second_14"> стол</string>
-    <string name="l1_g3_first_15">Нов</string>
-    <string name="l1_g3_second_15"> медаль </string>
-    <string name="l1_g3_first_16">Больш</string>
-    <string name="l1_g3_second_16"> брюки</string>
-    <string name="l1_g3_first_17">Маленьк</string>
-    <string name="l1_g3_second_17"> проблема </string>
+    <string name="l1_g3_first_0" translatable="false">﻿Больш</string>
+    <string name="l1_g3_second_0" translatable="false"> страна</string>
+    <string name="l1_g3_first_1" translatable="false">Интересн</string>
+    <string name="l1_g3_second_1" translatable="false"> музей </string>
+    <string name="l1_g3_first_2" translatable="false">Длинн</string>
+    <string name="l1_g3_second_2" translatable="false"> история </string>
+    <string name="l1_g3_first_3" translatable="false">Русск</string>
+    <string name="l1_g3_second_3" translatable="false"> словарь </string>
+    <string name="l1_g3_first_4" translatable="false">Нов</string>
+    <string name="l1_g3_second_4" translatable="false"> ученик</string>
+    <string name="l1_g3_first_5" translatable="false">Маленьк</string>
+    <string name="l1_g3_second_5" translatable="false"> ножницы</string>
+    <string name="l1_g3_first_6" translatable="false">Больш</string>
+    <string name="l1_g3_second_6" translatable="false"> стол</string>
+    <string name="l1_g3_first_7" translatable="false">Красив</string>
+    <string name="l1_g3_second_7" translatable="false"> парк </string>
+    <string name="l1_g3_first_8" translatable="false">Нов</string>
+    <string name="l1_g3_second_8" translatable="false"> часы</string>
+    <string name="l1_g3_first_9" translatable="false">Стар</string>
+    <string name="l1_g3_second_9" translatable="false"> архитектура</string>
+    <string name="l1_g3_first_10" translatable="false">Хорош</string>
+    <string name="l1_g3_second_10" translatable="false"> школа</string>
+    <string name="l1_g3_first_11" translatable="false">Нов</string>
+    <string name="l1_g3_second_11" translatable="false"> месяц </string>
+    <string name="l1_g3_first_12" translatable="false">Больш</string>
+    <string name="l1_g3_second_12" translatable="false"> здание</string>
+    <string name="l1_g3_first_13" translatable="false">Маленьк</string>
+    <string name="l1_g3_second_13" translatable="false"> мост</string>
+    <string name="l1_g3_first_14" translatable="false">Хорош</string>
+    <string name="l1_g3_second_14" translatable="false"> стол</string>
+    <string name="l1_g3_first_15" translatable="false">Нов</string>
+    <string name="l1_g3_second_15" translatable="false"> медаль </string>
+    <string name="l1_g3_first_16" translatable="false">Больш</string>
+    <string name="l1_g3_second_16" translatable="false"> брюки</string>
+    <string name="l1_g3_first_17" translatable="false">Маленьк</string>
+    <string name="l1_g3_second_17" translatable="false"> проблема </string>
     <string name="score_for_a_game">Score for a game:</string>
     <string name="correct_answers">Number of correct answers:</string>
     <string name="see_errors">Look at your mistakes</string>
@@ -531,51 +531,51 @@
     <string name="L10grammar1_title">Instrumental Case</string>
     <string name="l10_g1_description1">The instrumental case is used in several ways.</string>
     <string name="l10_g1_task1">Write the nouns in the instrumental case.</string>
-    <string name="l10_g1_first_0">﻿1.  Мы гуляем с (подружки) </string>
+    <string name="l10_g1_first_0" translatable="false">﻿1.  Мы гуляем с (подружки) </string>
     <string name="l10_g1_second_0">.</string>
-    <string name="l10_g1_first_1">2.Машина стоит между (офис) </string>
-    <string name="l10_g1_second_1"> и магазином.</string>
-    <string name="l10_g1_first_2">3.  Художник пишет картину (масло) </string>
+    <string name="l10_g1_first_1" translatable="false">2.Машина стоит между (офис) </string>
+    <string name="l10_g1_second_1" translatable="false"> и магазином.</string>
+    <string name="l10_g1_first_2" translatable="false">3.  Художник пишет картину (масло) </string>
     <string name="l10_g1_second_2">.</string>
-    <string name="l10_g1_first_3">4. Писатель делает пометки (карандаш) </string>
+    <string name="l10_g1_first_3" translatable="false">4. Писатель делает пометки (карандаш) </string>
     <string name="l10_g1_second_3">.</string>
-    <string name="l10_g1_first_4">5. Профессор интересуется (культура) </string>
-    <string name="l10_g1_second_4"> Индии. </string>
-    <string name="l10_g1_first_5">6. Я люблю работать с (люди) </string>
+    <string name="l10_g1_first_4" translatable="false">5. Профессор интересуется (культура) </string>
+    <string name="l10_g1_second_4" translatable="false"> Индии. </string>
+    <string name="l10_g1_first_5" translatable="false">6. Я люблю работать с (люди) </string>
     <string name="l10_g1_second_5">.</string>
-    <string name="l10_g1_first_6">7. С (друг) </string>
-    <string name="l10_g1_second_6"> весело всегда! </string>
-    <string name="l10_g1_first_7">8. Поделишься со мной (часть) </string>
-    <string name="l10_g1_second_7"> пирога? </string>
-    <string name="l10_g1_first_8">9.Василий доволен (решение) </string>
-    <string name="l10_g1_second_8"> студента.</string>
-    <string name="l10_g1_first_9">10.  Ты познакомился с её (родители) </string>
+    <string name="l10_g1_first_6" translatable="false">7. С (друг) </string>
+    <string name="l10_g1_second_6" translatable="false"> весело всегда! </string>
+    <string name="l10_g1_first_7" translatable="false">8. Поделишься со мной (часть) </string>
+    <string name="l10_g1_second_7" translatable="false"> пирога? </string>
+    <string name="l10_g1_first_8" translatable="false">9.Василий доволен (решение) </string>
+    <string name="l10_g1_second_8" translatable="false"> студента.</string>
+    <string name="l10_g1_first_9" translatable="false">10.  Ты познакомился с её (родители) </string>
     <string name="l10_g1_second_9"> </string>
     <string name="L10grammar2_title">The Reﬂexive Pronoun</string>
     <string name="l10_g2_description1">The pronoun себя (-self ) refers to the subject of the sentence and therefore does not have a nominative.</string>
-    <string name="l10_g2_description2">Я купила себе сумку. I bought myself a bag.</string>
-    <string name="l10_g2_description3">Ты берешь меня с собой? Do you take me with you?</string>
-    <string name="l10_g2_description4">Миша говорит только о себе. Misha talks only about himself.</string>
+    <string name="l10_g2_description2" translatable="false">Я купила себе сумку. I bought myself a bag.</string>
+    <string name="l10_g2_description3" translatable="false">Ты берешь меня с собой? Do you take me with you?</string>
+    <string name="l10_g2_description4" translatable="false">Миша говорит только о себе. Misha talks only about himself.</string>
     <string name="l10_g2_task1">Write possessive or reflexive pronoun.</string>
-    <string name="l10_g2_first_0">﻿1. Мама покупает </string>
-    <string name="l10_g2_second_0"> платье. </string>
-    <string name="l10_g2_first_1">2. Президент выступает с(со) </string>
-    <string name="l10_g2_second_1"> речью.</string>
-    <string name="l10_g2_first_2">3. Догони этого мужчину! Это </string>
-    <string name="l10_g2_second_2"> зонтик! </string>
-    <string name="l10_g2_first_3">4. Догони этого мужчину! Он забыл </string>
-    <string name="l10_g2_second_3"> зонтик. </string>
-    <string name="l10_g2_first_4">5.Катя умеет готовить! </string>
-    <string name="l10_g2_second_4"> торты очень вкусные ! </string>
-    <string name="l10_g2_first_5">6. Катя приготовила </string>
-    <string name="l10_g2_second_5"> первый торт. </string>
-    <string name="l10_g2_first_6">7. Как ты угадал? Ты читаешь </string>
-    <string name="l10_g2_second_6"> мысли?</string>
-    <string name="l10_g2_first_7">8. Следи за </string>
-    <string name="l10_g2_second_7"> словами! </string>
-    <string name="l10_g2_first_8">9.  Катя любит Сережу, особенно </string>
-    <string name="l10_g2_second_8"> голос.</string>
-    <string name="l10_g2_first_9">10. Катя никого не любит. Катя любит только </string>
+    <string name="l10_g2_first_0" translatable="false">﻿1. Мама покупает </string>
+    <string name="l10_g2_second_0" translatable="false"> платье. </string>
+    <string name="l10_g2_first_1" translatable="false">2. Президент выступает с(со) </string>
+    <string name="l10_g2_second_1" translatable="false"> речью.</string>
+    <string name="l10_g2_first_2" translatable="false">3. Догони этого мужчину! Это </string>
+    <string name="l10_g2_second_2" translatable="false"> зонтик! </string>
+    <string name="l10_g2_first_3" translatable="false">4. Догони этого мужчину! Он забыл </string>
+    <string name="l10_g2_second_3" translatable="false"> зонтик. </string>
+    <string name="l10_g2_first_4" translatable="false">5.Катя умеет готовить! </string>
+    <string name="l10_g2_second_4" translatable="false"> торты очень вкусные ! </string>
+    <string name="l10_g2_first_5" translatable="false">6. Катя приготовила </string>
+    <string name="l10_g2_second_5" translatable="false"> первый торт. </string>
+    <string name="l10_g2_first_6" translatable="false">7. Как ты угадал? Ты читаешь </string>
+    <string name="l10_g2_second_6" translatable="false"> мысли?</string>
+    <string name="l10_g2_first_7" translatable="false">8. Следи за </string>
+    <string name="l10_g2_second_7" translatable="false"> словами! </string>
+    <string name="l10_g2_first_8" translatable="false">9.  Катя любит Сережу, особенно </string>
+    <string name="l10_g2_second_8" translatable="false"> голос.</string>
+    <string name="l10_g2_first_9" translatable="false">10. Катя никого не любит. Катя любит только </string>
     <string name="l10_g2_second_9">. </string>
     <string name="password_confirmation">Confirm your password</string>
 

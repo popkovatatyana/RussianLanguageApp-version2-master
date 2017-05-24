@@ -20,8 +20,14 @@ import android.widget.RatingBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.toolbox.Volley;
+import com.popkova.russianlanguageapp.LoginActivity;
 import com.popkova.russianlanguageapp.MainActivity;
 import com.popkova.russianlanguageapp.R;
+import com.popkova.russianlanguageapp.RegisterRequest;
+import com.popkova.russianlanguageapp.RegistrationActivity;
 import com.popkova.russianlanguageapp.UserLocalStore;
 
 import org.json.JSONException;
@@ -46,22 +52,43 @@ public class Lesson_1_grammar_1_results extends AppCompatActivity {
         Context context = getBaseContext();
         String answersJson = readRawTextFile(context, getResources().getIdentifier("l1_g1_answersjson", "raw", "com.popkova.russianlanguageapp"));
         for (int i = 0; i < 33; i++) {
-            String answerReceived = getIntent().getExtras().getString("L1G1A" + Integer.toString(i));
+            final String answerReceived = getIntent().getExtras().getString("L1G1A" + Integer.toString(i));
             try {
                 JSONObject jsonObject = new JSONObject(answersJson);
                 String answerTrue = jsonObject.getString("L1G1A" + Integer.toString(i));
-                String totalString = jsonObject.getString("L1G1A" + Integer.toString(i)+"total");
+                String totalString = jsonObject.getString("L1G1A" + Integer.toString(i) + "total");
                 if (answerTrue.equals(answerReceived.toLowerCase())) {
                     scoreForAGame++;
-                }else{
-                    errorsInGame +=answerReceived.toLowerCase() + ", correct answer: "+ totalString;
+                } else {
+                    errorsInGame += answerReceived.toLowerCase() + ", correct answer: " + totalString;
+                    if (answerReceived.length() != 0) {
+                        String id = "L1G1A" + Integer.toString(i);
+                        Response.Listener<String> responseListener = new Response.Listener<String>() {
+                            @Override
+                            public void onResponse(String response) {
+                                try {
+                                    JSONObject jsonResponse = new JSONObject(response);
+                                    boolean success = jsonResponse.getBoolean("success");
+                                    if (success) {
+                                    } else {
+                                    }
+                                } catch (JSONException e) {
+                                    e.printStackTrace();
+                                }
+                            }
+                        };
+
+                        RegisterRequest registerRequest = new RegisterRequest(id, answerReceived, responseListener);
+                        RequestQueue queue = Volley.newRequestQueue(Lesson_1_grammar_1_results.this);
+                        queue.add(registerRequest);
+                    }
                 }
             } catch (JSONException e) {
             }
         }
 
         String result = scoreForAGame + "/33";
-        float d= (float) ((scoreForAGame*5)/33);
+        float d = (float) ((scoreForAGame * 5) / 33);
         RatingBar rb = (RatingBar) findViewById(R.id.ratingBar1);
         rb.setRating(d);
         mL1_G_RESULTS.setText(result);
@@ -70,8 +97,7 @@ public class Lesson_1_grammar_1_results extends AppCompatActivity {
         userLocalData.setTotalScore(scoreForAGame);
     }
 
-    public static String readRawTextFile(Context context, int resId)
-    {
+    public static String readRawTextFile(Context context, int resId) {
         InputStream inputStream = context.getResources().openRawResource(resId);
 
         InputStreamReader inputReader = new InputStreamReader(inputStream);
@@ -80,7 +106,7 @@ public class Lesson_1_grammar_1_results extends AppCompatActivity {
         StringBuilder builder = new StringBuilder();
 
         try {
-            while (( line = buffReader.readLine()) != null) {
+            while ((line = buffReader.readLine()) != null) {
                 builder.append(line);
                 builder.append("\n");
             }
@@ -107,6 +133,7 @@ public class Lesson_1_grammar_1_results extends AppCompatActivity {
         }
         return super.onCreateDialog(id);
     }
+
     DialogInterface.OnClickListener myClickListener = new DialogInterface.OnClickListener() {
         public void onClick(DialogInterface dialog, int which) {
             switch (which) {

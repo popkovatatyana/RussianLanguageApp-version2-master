@@ -13,8 +13,13 @@ import android.view.View;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.toolbox.Volley;
+import com.popkova.russianlanguageapp.Lesson1.Lesson_1_grammar_1_results;
 import com.popkova.russianlanguageapp.MainActivity;
 import com.popkova.russianlanguageapp.R;
+import com.popkova.russianlanguageapp.RegisterRequest;
 import com.popkova.russianlanguageapp.UserLocalStore;
 
 import org.json.JSONException;
@@ -48,6 +53,27 @@ public class Lesson_8_grammar_2_results extends AppCompatActivity {
                     scoreForAGame++;
                 }else{
                     errorsInGame +=answerReceived.toLowerCase() + ", correct answer: "+ totalString;
+                    if (answerReceived.length() != 0) {
+                        String id = "L8G2A" + Integer.toString(i);
+                        Response.Listener<String> responseListener = new Response.Listener<String>() {
+                            @Override
+                            public void onResponse(String response) {
+                                try {
+                                    JSONObject jsonResponse = new JSONObject(response);
+                                    boolean success = jsonResponse.getBoolean("success");
+                                    if (success) {
+                                    } else {
+                                    }
+                                } catch (JSONException e) {
+                                    e.printStackTrace();
+                                }
+                            }
+                        };
+
+                        RegisterRequest registerRequest = new RegisterRequest(id, answerReceived, responseListener);
+                        RequestQueue queue = Volley.newRequestQueue(Lesson_8_grammar_2_results.this);
+                        queue.add(registerRequest);
+                    }
                 }
             } catch (JSONException e) {
             }

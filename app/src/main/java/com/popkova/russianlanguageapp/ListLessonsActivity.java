@@ -32,8 +32,8 @@ public class ListLessonsActivity extends AppCompatActivity {
             "Профессии\nAccusative case",
             "Мой день\n Frequency Adverbs|Past Tense",
             "Хобби\nGenitive Case|Adverbs of Degree",
-            "Покупки\nDative Case",
-            "Праздники\nImpersonal Constructions"
+            "Покупки\nDative Case|Impersonal Constructions",
+            "Праздники\nInstrumental Case|Reflexive Pronoun"
     } ;
 
     Integer[] imageId = {
