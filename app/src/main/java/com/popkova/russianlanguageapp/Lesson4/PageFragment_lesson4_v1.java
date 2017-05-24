@@ -30,8 +30,8 @@ public class PageFragment_lesson4_v1 extends Fragment {
     private int mStreamID;
     private int mSound;
     private String songName;
-    private float rightVolume= 0.5f;
-    private float leftVolume= 0.5f;
+    private float rightVolume= 1;
+    private float leftVolume= 1;
 
     static final String ARGUMENT_PAGE_NUMBER = "arg_page_number";
     String [] Examples = {
@@ -81,26 +81,26 @@ public class PageFragment_lesson4_v1 extends Fragment {
             "school"
     };
     int [] images = {
-            R.drawable.l3_1,
-            R.drawable.l3_2,
-            R.drawable.l3_3,
-            R.drawable.l3_4,
-            R.drawable.l3_5,
-            R.drawable.l3_6,
-            R.drawable.l3_7,
-            R.drawable.l3_8,
-            R.drawable.l3_9,
-            R.drawable.l3_10,
-            R.drawable.l3_11,
-            R.drawable.l3_12,
-            R.drawable.l3_13,
-            R.drawable.l3_14,
-            R.drawable.l3_15,
-            R.drawable.l3_16,
-            R.drawable.l3_17,
-            R.drawable.l3_18,
-            R.drawable.l3_19,
-            R.drawable.l3_20
+            R.drawable.l4_1,
+            R.drawable.l4_2,
+            R.drawable.l4_3,
+            R.drawable.l4_4,
+            R.drawable.l4_5,
+            R.drawable.l4_5_1,
+            R.drawable.l4_6,
+            R.drawable.l4_7,
+            R.drawable.l4_8,
+            R.drawable.l4_9,
+            R.drawable.l4_10,
+            R.drawable.l4_11,
+            R.drawable.l4_12,
+            R.drawable.l4_13,
+            R.drawable.l4_14,
+            R.drawable.l4_15,
+            R.drawable.l4_16,
+            R.drawable.l4_17,
+            R.drawable.l4_18,
+            R.drawable.l4_19,
     };
 
 

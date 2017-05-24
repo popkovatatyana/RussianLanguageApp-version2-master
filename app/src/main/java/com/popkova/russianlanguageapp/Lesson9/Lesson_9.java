@@ -20,7 +20,7 @@ public class Lesson_9 extends AppCompatActivity {
 
     private String[] mGroupsArray = new String[]{"Vocabulary", "Grammar"};
     private String[] mVocabulary = new String[]{"Покупки|Shopping"};
-    private String[] mGrammar = new String[]{ "Дательный падеж|Genitive case", "Безличные конструкции|Impersonal constructions" };
+    private String[] mGrammar = new String[]{ "Дательный падеж|Dative Case", "Безличные конструкции|Impersonal Constructions" };
 
 
     @Override

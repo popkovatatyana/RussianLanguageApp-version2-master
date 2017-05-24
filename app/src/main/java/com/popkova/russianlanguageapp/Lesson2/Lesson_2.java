@@ -20,7 +20,7 @@ public class Lesson_2 extends AppCompatActivity {
 
     private String[] mGroupsArray = new String[]{"Vocabulary", "Grammar"};
     private String[] mVocabulary = new String[]{"Моя семья|My Family", "Национальности|Nationalities", "Знакомство|Meeting People"};
-    private String[] mGrammar = new String[]{"Личные местоимения|Personal Pronoun", "Притяжательные местоимения|Possessive Pronouns"};
+    private String[] mGrammar = new String[]{"Личные местоимения|Personal Pronouns", "Притяжательные местоимения|Possessive Pronouns"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

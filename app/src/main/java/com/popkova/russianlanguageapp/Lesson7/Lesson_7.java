@@ -20,7 +20,7 @@ public class Lesson_7 extends AppCompatActivity {
 
     private String[] mGroupsArray = new String[]{"Vocabulary", "Grammar"};
     private String[] mVocabulary = new String[]{"Мой день|My day"};
-    private String[] mGrammar = new String[]{ "Частотные наречия|Frequency adverbs", "Прошедшее время|Past tense" };
+    private String[] mGrammar = new String[]{ "Частотные наречия|Frequency Adverbs", "Прошедшее время|Past Tense" };
 
 
     @Override

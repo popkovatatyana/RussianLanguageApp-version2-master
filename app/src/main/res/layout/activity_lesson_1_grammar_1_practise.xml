@@ -40,8 +40,8 @@
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/l1_g1_question0"
                 android:onClick="onClick"
+                android:text="@string/l1_g1_question0"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:id="@+id/l1_g1_question0"
                 />
@@ -55,10 +55,10 @@
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/l1_g1_question1"
-                android:id="@+id/l1_g1_question1"
                 android:onClick="onClick"
+                android:text="@string/l1_g1_question1"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/l1_g1_question1"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
@@ -70,10 +70,10 @@
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/l1_g1_question2"
                 android:onClick="onClick"
-                android:id="@+id/l1_g1_question2"
+                android:text="@string/l1_g1_question2"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/l1_g1_question2"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
@@ -85,8 +85,10 @@
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="onClick"
                 android:text="@string/l1_g1_question3"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/l1_g1_question3"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
@@ -98,8 +100,10 @@
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="onClick"
                 android:text="@string/l1_g1_question4"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/l1_g1_question4"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
@@ -111,8 +115,10 @@
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="onClick"
                 android:text="@string/l1_g1_question5"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/l1_g1_question5"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
@@ -124,8 +130,10 @@
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="onClick"
                 android:text="@string/l1_g1_question6"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/l1_g1_question6"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
@@ -137,8 +145,10 @@
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="onClick"
                 android:text="@string/l1_g1_question7"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/l1_g1_question7"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
@@ -150,8 +160,10 @@
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="onClick"
                 android:text="@string/l1_g1_question8"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/l1_g1_question8"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
@@ -163,8 +175,10 @@
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="onClick"
                 android:text="@string/l1_g1_question9"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/l1_g1_question9"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
@@ -176,8 +190,10 @@
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="onClick"
                 android:text="@string/l1_g1_question10"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/l1_g1_question10"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
@@ -189,8 +205,10 @@
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="onClick"
                 android:text="@string/l1_g1_question11"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/l1_g1_question11"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
@@ -200,11 +218,12 @@
                 android:id="@+id/l1_g1_answer12"
                 android:textAlignment="center"
                 />
-
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="onClick"
                 android:text="@string/l1_g1_question12"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/l1_g1_question12"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
@@ -216,8 +235,10 @@
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="onClick"
                 android:text="@string/l1_g1_question13"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/l1_g1_question13"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
@@ -229,8 +250,10 @@
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="onClick"
                 android:text="@string/l1_g1_question14"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/l1_g1_question14"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
@@ -242,8 +265,10 @@
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="onClick"
                 android:text="@string/l1_g1_question15"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/l1_g1_question15"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
@@ -255,8 +280,10 @@
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="onClick"
                 android:text="@string/l1_g1_question16"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/l1_g1_question16"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
@@ -268,8 +295,10 @@
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="onClick"
                 android:text="@string/l1_g1_question17"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/l1_g1_question17"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
@@ -281,8 +310,10 @@
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="onClick"
                 android:text="@string/l1_g1_question18"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/l1_g1_question18"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
@@ -294,8 +325,10 @@
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="onClick"
                 android:text="@string/l1_g1_question19"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/l1_g1_question19"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
@@ -307,8 +340,10 @@
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="onClick"
                 android:text="@string/l1_g1_question20"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/l1_g1_question20"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
@@ -320,8 +355,10 @@
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="onClick"
                 android:text="@string/l1_g1_question21"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/l1_g1_question21"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
@@ -333,8 +370,10 @@
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="onClick"
                 android:text="@string/l1_g1_question22"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/l1_g1_question22"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
@@ -346,8 +385,10 @@
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="onClick"
                 android:text="@string/l1_g1_question23"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/l1_g1_question23"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
@@ -359,8 +400,10 @@
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="onClick"
                 android:text="@string/l1_g1_question24"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/l1_g1_question24"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
@@ -372,8 +415,10 @@
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="onClick"
                 android:text="@string/l1_g1_question25"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/l1_g1_question25"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
@@ -385,8 +430,10 @@
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="onClick"
                 android:text="@string/l1_g1_question26"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/l1_g1_question26"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
@@ -398,8 +445,10 @@
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="onClick"
                 android:text="@string/l1_g1_question27"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/l1_g1_question27"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
@@ -411,8 +460,10 @@
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="onClick"
                 android:text="@string/l1_g1_question28"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/l1_g1_question28"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
@@ -424,8 +475,10 @@
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="onClick"
                 android:text="@string/l1_g1_question29"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/l1_g1_question29"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
@@ -437,8 +490,10 @@
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="onClick"
                 android:text="@string/l1_g1_question30"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/l1_g1_question30"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
@@ -450,8 +505,10 @@
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="onClick"
                 android:text="@string/l1_g1_question31"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/l1_g1_question31"
                 />
         </TableRow>
         <TableRow android:padding="2dp">
@@ -463,10 +520,13 @@
                 />
             <TextView android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="onClick"
                 android:text="@string/l1_g1_question32"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/l1_g1_question32"
                 />
         </TableRow>
+
     </TableLayout>
     <Button
         android:text="@string/check"

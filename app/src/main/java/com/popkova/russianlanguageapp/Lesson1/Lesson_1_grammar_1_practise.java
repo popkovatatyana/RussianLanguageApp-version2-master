@@ -117,6 +117,96 @@ public class Lesson_1_grammar_1_practise extends AppCompatActivity {
             case R.id.l1_g1_question2:
                 translated = localResources.getString(R.string.l1_g1_question2);
                 break;
+            case R.id.l1_g1_question3:
+                translated = localResources.getString(R.string.l1_g1_question3);
+                break;
+            case R.id.l1_g1_question4:
+                translated = localResources.getString(R.string.l1_g1_question4);
+                break;
+            case R.id.l1_g1_question5:
+                translated = localResources.getString(R.string.l1_g1_question5);
+                break;
+            case R.id.l1_g1_question6:
+                translated = localResources.getString(R.string.l1_g1_question6);
+                break;
+            case R.id.l1_g1_question7:
+                translated = localResources.getString(R.string.l1_g1_question7);
+                break;
+            case R.id.l1_g1_question8:
+                translated = localResources.getString(R.string.l1_g1_question8);
+                break;
+            case R.id.l1_g1_question9:
+                translated = localResources.getString(R.string.l1_g1_question9);
+                break;
+            case R.id.l1_g1_question10:
+                translated = localResources.getString(R.string.l1_g1_question10);
+                break;
+            case R.id.l1_g1_question11:
+                translated = localResources.getString(R.string.l1_g1_question11);
+                break;
+            case R.id.l1_g1_question12:
+                translated = localResources.getString(R.string.l1_g1_question12);
+                break;
+            case R.id.l1_g1_question13:
+                translated = localResources.getString(R.string.l1_g1_question13);
+                break;
+            case R.id.l1_g1_question14:
+                translated = localResources.getString(R.string.l1_g1_question14);
+                break;
+            case R.id.l1_g1_question15:
+                translated = localResources.getString(R.string.l1_g1_question15);
+                break;
+            case R.id.l1_g1_question16:
+                translated = localResources.getString(R.string.l1_g1_question16);
+                break;
+            case R.id.l1_g1_question17:
+                translated = localResources.getString(R.string.l1_g1_question17);
+                break;
+            case R.id.l1_g1_question18:
+                translated = localResources.getString(R.string.l1_g1_question18);
+                break;
+            case R.id.l1_g1_question19:
+                translated = localResources.getString(R.string.l1_g1_question19);
+                break;
+            case R.id.l1_g1_question20:
+                translated = localResources.getString(R.string.l1_g1_question20);
+                break;
+            case R.id.l1_g1_question21:
+                translated = localResources.getString(R.string.l1_g1_question21);
+                break;
+            case R.id.l1_g1_question22:
+                translated = localResources.getString(R.string.l1_g1_question22);
+                break;
+            case R.id.l1_g1_question23:
+                translated = localResources.getString(R.string.l1_g1_question23);
+                break;
+            case R.id.l1_g1_question24:
+                translated = localResources.getString(R.string.l1_g1_question24);
+                break;
+            case R.id.l1_g1_question25:
+                translated = localResources.getString(R.string.l1_g1_question25);
+                break;
+            case R.id.l1_g1_question26:
+                translated = localResources.getString(R.string.l1_g1_question26);
+                break;
+            case R.id.l1_g1_question27:
+                translated = localResources.getString(R.string.l1_g1_question27);
+                break;
+            case R.id.l1_g1_question28:
+                translated = localResources.getString(R.string.l1_g1_question28);
+                break;
+            case R.id.l1_g1_question29:
+                translated = localResources.getString(R.string.l1_g1_question29);
+                break;
+            case R.id.l1_g1_question30:
+                translated = localResources.getString(R.string.l1_g1_question30);
+                break;
+            case R.id.l1_g1_question31:
+                translated = localResources.getString(R.string.l1_g1_question31);
+                break;
+            case R.id.l1_g1_question32:
+                translated = localResources.getString(R.string.l1_g1_question32);
+                break;
         }
 
         Toast toast = Toast.makeText(getApplicationContext(),

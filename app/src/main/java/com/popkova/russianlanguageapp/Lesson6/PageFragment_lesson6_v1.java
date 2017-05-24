@@ -79,26 +79,26 @@ public class PageFragment_lesson6_v1 extends Fragment {
     };
 
     int [] images = {
-            R.drawable.l3_1,
-            R.drawable.l3_2,
-            R.drawable.l3_3,
-            R.drawable.l3_4,
-            R.drawable.l3_5,
-            R.drawable.l3_6,
-            R.drawable.l3_7,
-            R.drawable.l3_8,
-            R.drawable.l3_9,
-            R.drawable.l3_10,
-            R.drawable.l3_11,
-            R.drawable.l3_12,
-            R.drawable.l2_13,
-            R.drawable.l3_14,
-            R.drawable.l3_15,
-            R.drawable.l3_16,
-            R.drawable.l3_17,
-            R.drawable.l3_18,
-            R.drawable.l3_17,
-            R.drawable.l3_18
+            R.drawable.l6_1,
+            R.drawable.l6_2,
+            R.drawable.l6_3,
+            R.drawable.l6_4,
+            R.drawable.l6_5,
+            R.drawable.l6_6,
+            R.drawable.l6_7,
+            R.drawable.l6_8,
+            R.drawable.l6_9,
+            R.drawable.l6_10,
+            R.drawable.l6_11,
+            R.drawable.l6_12,
+            R.drawable.l6_13,
+            R.drawable.l6_14,
+            R.drawable.l6_15,
+            R.drawable.l6_16,
+            R.drawable.l6_17,
+            R.drawable.l6_18,
+            R.drawable.l6_19,
+            R.drawable.l6_20
     };
 
 

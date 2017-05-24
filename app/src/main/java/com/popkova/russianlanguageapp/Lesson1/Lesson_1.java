@@ -20,7 +20,7 @@ public class Lesson_1 extends AppCompatActivity {
 
     private String[] mGroupsArray = new String[]{"Vocabulary", "Grammar"};
     private String[] mVocabulary = new String[]{"Знакомство|Greetings"};
-    private String[] mGrammar = new String[]{"Род|Gender", "Множественное число|Plural number", "Согласование прилагательного|Adjective agreement"};
+    private String[] mGrammar = new String[]{"Род|Gender", "Множественное число|Plural umber", "Согласование прилагательного|Adjective Agreement"};
 
 
     @Override
@@ -80,12 +80,13 @@ public class Lesson_1 extends AppCompatActivity {
                 groupTo, сhildDataList, android.R.layout.simple_list_item_1,
                 childFrom, childTo);
 
-        ExpandableListView expandableListView = (ExpandableListView) findViewById(R.id.expListView);
+        final ExpandableListView expandableListView = (ExpandableListView) findViewById(R.id.expListView);
         expandableListView.setAdapter(adapter);
 
         expandableListView.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
             public boolean onChildClick(ExpandableListView parent, View v,
                                         int groupPosition, int childPosition, long id) {
+
                 if (groupPosition == 0 && childPosition == 0) {
                     Intent intent = new Intent(Lesson_1.this, Lesson_1_vocabulary_1.class);
                     startActivity(intent);
@@ -102,7 +103,6 @@ public class Lesson_1 extends AppCompatActivity {
                     Intent intent = new Intent(Lesson_1.this, Lesson_1_grammar_3.class);
                     startActivity(intent);
                 }
-
 
                 return false;
             }

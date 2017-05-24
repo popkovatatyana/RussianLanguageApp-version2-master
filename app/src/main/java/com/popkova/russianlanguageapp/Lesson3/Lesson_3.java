@@ -20,7 +20,7 @@ public class Lesson_3 extends AppCompatActivity {
 
     private String[] mGroupsArray = new String[]{"Vocabulary", "Grammar"};
     private String[] mVocabulary = new String[]{"Предметы вокруг|Things Around Me"};
-    private String[] mGrammar = new String[]{"Местоимение 'это'|Pointing Things", "Местоимения 'то' и 'этот'|Contrasting Similar Items", "Я говорю по-русски|Talking About Languages"};
+    private String[] mGrammar = new String[]{"Местоимение 'это'|Pointing Things", "Местоимения 'тот' и 'этот'|Contrasting Similar Items", "Я говорю по-русски|Talking About Languages"};
 
 
     @Override

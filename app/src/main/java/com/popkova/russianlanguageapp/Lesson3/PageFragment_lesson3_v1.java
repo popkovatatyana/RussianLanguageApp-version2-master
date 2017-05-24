@@ -30,8 +30,8 @@ public class PageFragment_lesson3_v1 extends Fragment {
     private int mStreamID;
     private int mSound;
     private String songName;
-    private float rightVolume= 0.5f;
-    private float leftVolume= 0.5f;
+    private int rightVolume= 1;
+    private int leftVolume= 1;
 
     static final String ARGUMENT_PAGE_NUMBER = "arg_page_number";
     String [] Examples = {

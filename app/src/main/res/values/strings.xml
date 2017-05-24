@@ -49,38 +49,38 @@
     <string name="l1_g1_description7">•\tBe aware of such neuter nouns which have –я ending: время, имя, пламя, племя etc.</string>
     <string name="l1_grammar_1_title_2">Write он before the masculine nouns, она before the feminine nouns, оно before the neuter nouns, and они before the plural nouns.</string>
     <string name="l1_g1_question0" translatable="false">весы</string>
-    <string name="l1_g1_question1">волк </string>
-    <string name="l1_g1_question2">мост</string>
-    <string name="l1_g1_question3">стихотворение</string>
-    <string name="l1_g1_question4">носки</string>
-    <string name="l1_g1_question5">фамилия</string>
-    <string name="l1_g1_question6">государство </string>
-    <string name="l1_g1_question7">медаль</string>
-    <string name="l1_g1_question8">джинсы </string>
-    <string name="l1_g1_question9">чувство</string>
+    <string name="l1_g1_question1" translatable="false">волк </string>
+    <string name="l1_g1_question2" translatable="false">мост</string>
+    <string name="l1_g1_question3" translatable="false">стихотворение</string>
+    <string name="l1_g1_question4" translatable="false">носки</string>
+    <string name="l1_g1_question5" translatable="false">фамилия</string>
+    <string name="l1_g1_question6" translatable="false">государство </string>
+    <string name="l1_g1_question7" translatable="false">медаль</string>
+    <string name="l1_g1_question8" translatable="false">джинсы </string>
+    <string name="l1_g1_question9" translatable="false">чувство</string>
     <string name="l1_g1_question10" translatable="false">музей</string>
     <string name="l1_g1_question11" translatable="false">время </string>
     <string name="l1_g1_question12" translatable="false">история </string>
     <string name="l1_g1_question13" translatable="false">дружба </string>
     <string name="l1_g1_question14" translatable="false">архитектура</string>
     <string name="l1_g1_question15" translatable="false">слово</string>
-    <string name="l1_g1_question16">поколение </string>
-    <string name="l1_g1_question17">словарь </string>
-    <string name="l1_g1_question18">брюки </string>
-    <string name="l1_g1_question19">проблема </string>
-    <string name="l1_g1_question20">очки </string>
-    <string name="l1_g1_question21">деньги </string>
-    <string name="l1_g1_question22">такси </string>
-    <string name="l1_g1_question23">парк</string>
-    <string name="l1_g1_question24">здание </string>
-    <string name="l1_g1_question25">стол </string>
-    <string name="l1_g1_question26">месяц </string>
-    <string name="l1_g1_question27">язык </string>
-    <string name="l1_g1_question28">страна </string>
-    <string name="l1_g1_question29">часы </string>
-    <string name="l1_g1_question30">школа </string>
-    <string name="l1_g1_question31">ножницы </string>
-    <string name="l1_g1_question32">ученик</string>
+    <string name="l1_g1_question16" translatable="false">поколение </string>
+    <string name="l1_g1_question17" translatable="false">словарь </string>
+    <string name="l1_g1_question18" translatable="false">брюки </string>
+    <string name="l1_g1_question19" translatable="false">проблема </string>
+    <string name="l1_g1_question20" translatable="false">очки </string>
+    <string name="l1_g1_question21" translatable="false">деньги </string>
+    <string name="l1_g1_question22" translatable="false">такси </string>
+    <string name="l1_g1_question23" translatable="false">парк</string>
+    <string name="l1_g1_question24" translatable="false">здание </string>
+    <string name="l1_g1_question25" translatable="false">стол </string>
+    <string name="l1_g1_question26" translatable="false">месяц </string>
+    <string name="l1_g1_question27" translatable="false">язык </string>
+    <string name="l1_g1_question28" translatable="false">страна </string>
+    <string name="l1_g1_question29" translatable="false">часы </string>
+    <string name="l1_g1_question30" translatable="false">школа </string>
+    <string name="l1_g1_question31" translatable="false">ножницы </string>
+    <string name="l1_g1_question32" translatable="false">ученик</string>
     <string name="L1grammar2_title">Plural of nouns</string>
     <string name="l1_g2_description1">*The choice between the endings –ы and –и is determined by  the Rule 1 below.</string>
     <string name="l1_g2_description3">NB! There are some irregular plural forms which can be described according to these rules:</string>
