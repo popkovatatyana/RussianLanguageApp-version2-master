@@ -66,7 +66,7 @@ public class PageFragment_lesson1_v1 extends Fragment {
             "Thank you",
             "Nice to meet you",
             "How are you? ",
-            "Can I ask you out some day?",
+            "Let's get aquainted?",
             "Bye!",
             "Good bye!",
             "Have a nice day!",
@@ -191,7 +191,7 @@ public class PageFragment_lesson1_v1 extends Fragment {
 
         mAssetManager = getContext().getAssets();
 
-        songName = "l1_s" + pageNumber + ".wma";
+        songName = "lesson1/" + pageNumber + ".m4a";
         mSound = loadSound(songName);
     }
 

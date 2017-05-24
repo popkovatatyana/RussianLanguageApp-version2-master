@@ -17,7 +17,7 @@ import org.json.JSONObject;
 
 public class RegistrationActivity extends AppCompatActivity {
     Button bRegister;
-    EditText edLogin, edPassword, edAge, edName, edSurname;
+    EditText edLogin, edPassword, edAge, edName, edSurname, edConfirmation;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +30,7 @@ public class RegistrationActivity extends AppCompatActivity {
         edPassword = (EditText) findViewById(R.id.PASSWORD_REGISTER);
         edSurname = (EditText) findViewById(R.id.SURNAME);
         bRegister = (Button) findViewById(R.id.REGISTER_BUTTON);
+        edConfirmation = (EditText)findViewById(R.id.PASSWORD_CONFIRMATION);
 
 
         bRegister.setOnClickListener(new View.OnClickListener() {
@@ -40,6 +41,8 @@ public class RegistrationActivity extends AppCompatActivity {
                 final int age = Integer.parseInt(edAge.getText().toString());
                 final String password = edPassword.getText().toString();
                 final String surname = edSurname.getText().toString();
+                final String passwordConf = edConfirmation.getText().toString();
+
 
                 Response.Listener<String> responseListener = new Response.Listener<String>() {
                     @Override
@@ -47,14 +50,13 @@ public class RegistrationActivity extends AppCompatActivity {
                         try {
                             JSONObject jsonResponse = new JSONObject(response);
                             boolean success = jsonResponse.getBoolean("success");
-                            if (success) {
+                            if (success  && passwordConf.equals(password)) {
                                 Intent intent = new Intent(RegistrationActivity.this, LoginActivity.class);
                                 RegistrationActivity.this.startActivity(intent);
                             } else {
                                 AlertDialog.Builder builder = new AlertDialog.Builder(RegistrationActivity.this);
-                                builder.setMessage("Register Failed")
-                                        .setNegativeButton("R" +
-                                                "etry", null)
+                                builder.setMessage("Please, confirm your password again and check an internet connection.")
+                                        .setNegativeButton("Retry", null)
                                         .create()
                                         .show();
                             }

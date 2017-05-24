@@ -3,13 +3,17 @@ package com.popkova.russianlanguageapp.Lesson4;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
+import com.popkova.russianlanguageapp.MainActivity;
 import com.popkova.russianlanguageapp.R;
 import com.popkova.russianlanguageapp.UserLocalStore;
 
@@ -21,7 +25,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
-public class Lesson_4_grammar_1_results extends AppCompatActivity {
+public class
+Lesson_4_grammar_1_results extends AppCompatActivity {
     private int scoreForAGame = 0;
     UserLocalStore userLocalData;
     final int DIALOG_EXIT = 1;
@@ -107,5 +112,20 @@ public class Lesson_4_grammar_1_results extends AppCompatActivity {
         }
     };
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+
+        if (id == R.id.action_main_page) {
+            Intent intent = new Intent(this, MainActivity.class);
+            startActivity(intent);
+        }
+        return super.onOptionsItemSelected(item);
+    }
 }

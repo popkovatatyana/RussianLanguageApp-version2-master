@@ -71,4 +71,5 @@ public class Lesson_3_vocabulary_1 extends FragmentActivity {
         Intent intent =  new Intent(Lesson_3_vocabulary_1.this, Lesson_3.class);
         startActivity(intent);
     }
+
 }
