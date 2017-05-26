@@ -109,8 +109,9 @@
         <activity android:name=".Lesson10.Lesson_10_grammar_1_results" />
         <activity android:name=".Lesson10.Lesson_10_grammar_2" />
         <activity android:name=".Lesson10.Lesson_10_grammar_2_practise" />
-        <activity android:name=".Lesson10.Lesson_10_grammar_2_results"></activity>
-        <activity android:name=".ListLessonsActivity"></activity>
+        <activity android:name=".Lesson10.Lesson_10_grammar_2_results" />
+        <activity android:name=".ListLessonsActivity" />
+        <activity android:name=".Manual"></activity>
     </application>
 
 </manifest>

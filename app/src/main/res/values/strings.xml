@@ -578,6 +578,13 @@
     <string name="l10_g2_first_9" translatable="false">10. Катя никого не любит. Катя любит только </string>
     <string name="l10_g2_second_9">. </string>
     <string name="password_confirmation">Confirm your password</string>
+    <string name="manual">How to use RITM?</string>
+    <string name="manual_1">Learn grammar easily</string>
+    <string name="manual_2">Check your answers</string>
+    <string name="score" />
+    <string name="ScoreValue">Your score:</string>
+    <string name="ritm">Russian Interactive Training Manual</string>
+    <string name="Description">Start learning Russian with RITM! Learn grammar easily, do exercises, check your answers and have fun!</string>
 
 
 </resources>
